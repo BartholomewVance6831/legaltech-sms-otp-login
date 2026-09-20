@@ -1,0 +1,8 @@
+{
+  "name": "legaltech-sms-otp-login",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/legal_login.test.ts", "demo": "tsx src/main.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.0"}
+}
